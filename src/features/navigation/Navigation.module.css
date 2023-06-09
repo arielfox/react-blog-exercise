@@ -1,0 +1,33 @@
+.navigationContainer {
+    text-align: left;
+}
+
+.navigationList {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 20px;
+    overflow: hidden;
+    background-color: lightsteelblue;
+}
+
+.navigationList li {
+    float: left;
+    display: block;
+    color: darkslateblue;
+    text-align: center;
+    padding: 16px;
+    font-weight: bold;
+}
+
+.navigationList li a:link {
+    text-decoration: none;
+}
+
+.navigationList li a:visited {
+    color: darkslateblue;
+}
+
+.navigationList li a:hover {
+    color: whitesmoke;
+}
+
